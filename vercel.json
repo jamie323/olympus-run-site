@@ -1,0 +1,6 @@
+{
+  "cleanUrls": true,
+  "redirects": [
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "www.olympusrun.com" }], "destination": "https://olympusrun.com/$1", "permanent": true }
+  ]
+}
