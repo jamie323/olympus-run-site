@@ -1,6 +1,46 @@
 {
   "cleanUrls": true,
   "redirects": [
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "www.olympusrun.com" }], "destination": "https://olympusrun.com/$1", "permanent": true }
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.olympusrun.com"
+        }
+      ],
+      "destination": "https://olympusrun.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/tt",
+      "destination": "https://apps.apple.com/app/apple-store/id6767585500?pt=123002929&mt=8&ct=tiktok_bio",
+      "permanent": false
+    },
+    {
+      "source": "/ig",
+      "destination": "https://apps.apple.com/app/apple-store/id6767585500?pt=123002929&mt=8&ct=instagram_bio",
+      "permanent": false
+    },
+    {
+      "source": "/yt",
+      "destination": "https://apps.apple.com/app/apple-store/id6767585500?pt=123002929&mt=8&ct=youtube",
+      "permanent": false
+    },
+    {
+      "source": "/rd",
+      "destination": "https://apps.apple.com/app/apple-store/id6767585500?pt=123002929&mt=8&ct=reddit",
+      "permanent": false
+    },
+    {
+      "source": "/dr",
+      "destination": "https://apps.apple.com/app/apple-store/id6767585500?pt=123002929&mt=8&ct=daily_share",
+      "permanent": false
+    },
+    {
+      "source": "/app",
+      "destination": "https://apps.apple.com/app/apple-store/id6767585500?pt=123002929&mt=8&ct=website",
+      "permanent": false
+    }
   ]
 }
