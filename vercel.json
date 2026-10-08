@@ -41,6 +41,11 @@
       "source": "/app",
       "destination": "https://apps.apple.com/app/apple-store/id6767585500?pt=123002929&mt=8&ct=website",
       "permanent": false
+    },
+    {
+      "source": "/angelhorn",
+      "destination": "https://apps.apple.com/app/apple-store/id6767585500?pt=123002929&mt=8&ct=creator_angelhorn",
+      "permanent": false
     }
   ]
 }
